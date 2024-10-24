@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: "Inter";
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0;
+}
+
+table {
+    border: none;
+}
+
+thead {
+    border-radius: 12px;
+}
+
+th {
+    border-radius: 12px;
+}
+
+td {
+    border-radius: 12px;
+}
+
+th:hover {
+    background-color: aliceblue;
+}
+
+td:hover {
+    background-color: aliceblue;
+}
+
+.input {
+    border: solid 1px #ccc;
+    border-radius: 10px;
+    font-size: 2rem;
+    padding: 10px;
+    transition: 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    outline: none;
+}
+
+.input:focus {
+    border-color: green;
+    box-shadow: 0 0 8px rgba(0, 128, 0, 0.5);
+    transform: scale(1.02);
+}
+
+
+.button {
+    border: none;
+    transition: 0.3s ease;
+    font-size: 2rem;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: auto;
+    box-sizing: border-box;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.button:hover {
+    background-color: #025802;
+    transform: scale(15);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
+}
+
+#result {
+    background-color: #f9f9f9;
+    border: solid 1px #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 1.5rem;
+    color: #333;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 20px; 
+    transition: background-color 0.3s ease;
+}
+
+#result:hover {
+    border-color: green;
+    box-shadow: 0 0 8px rgba(0, 128, 0, 0.5);
+}
